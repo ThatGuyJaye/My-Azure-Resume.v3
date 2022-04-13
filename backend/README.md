@@ -1,4 +1,4 @@
-# Some keyterms I ran into
+# A few things I ran into
 Partition Key: A field that you use to distinguish differnt item within the container
 
 Function: a block of organized code that is used to perofm a single task
