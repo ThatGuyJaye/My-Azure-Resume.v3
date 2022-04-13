@@ -13,7 +13,7 @@ The third iteration of my azure resume, following [ACG project video.](https://y
     - reviewed my website locally and pushed all of my changes to GitHub
 
 
-## Building the Backend
+## Building the Backendgit
 - Set up Cosmos DB Resources
     -   Created Cosmos DB Account, database, container, and data
 - Set up my Azure Function
