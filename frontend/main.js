@@ -2,17 +2,18 @@ window.addEventListener('DOMContentLoaded', (event) =>{
     getVisitCount();
 })
 
-const functionApi = '';
+const functionAPI = '';
 
-const GetVisitCount = () => {
+const getVisitCount = () => {
     let count = 30;
-    fetch(functionApi).then(response => {
+    fetch(functionAPI).then(response => {
         return response.json()
-
     }).then(response =>{
         console.log("Website called function API.");
         count = response.count;
-        document.getElementById("counter").InnerText = count;
-    })
+        document.getElementById("counter").innerText = count
+    }).catch(function(error){
+        console.log(error);
+    });
+    return count;
 }
-    
